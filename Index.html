@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Goody Toddler Consult | Early Years & Teacher Training</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7fbff;
+            color: #263238;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #075985;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 15px;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: #075985;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #0ea5e9, #075985);
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero h2 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            background: white;
+            color: #075985;
+            padding: 13px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 55px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #075985;
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .section-intro {
+            text-align: center;
+            max-width: 750px;
+            margin: 0 auto 35px;
+            color: #555;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #075985;
+            margin-bottom: 10px;
+        }
+
+        .icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .about {
+            background: white;
+            border-radius: 15px;
+            padding: 35px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.07);
+        }
+
+        .about p {
+            margin-bottom: 15px;
+        }
+
+        .training {
+            background: #e0f2fe;
+        }
+
+        .training-box {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+
+        .training-box h3 {
+            color: #075985;
+            margin-bottom: 10px;
+        }
+
+        .list {
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+
+        .list li {
+            margin-bottom: 8px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact-box {
+            background: #075985;
+            color: white;
+            padding: 35px;
+            border-radius: 15px;
+        }
+
+        .contact-box a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #032f46;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h2 {
+                font-size: 30px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>GOODY TODDLER CONSULT</h1>
+        <p>Early Years Education • Teacher Training • Child Safeguarding</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Our Services</a>
+        <a href="#training">Teacher Training</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero" id="home">
+        <h2>Building Better Early Years Educators</h2>
+
+        <p>
+            Welcome to Goody Toddler Consult, a professional early-years
+            education and teacher-training consultancy dedicated to supporting
+            teachers, schools and childcare professionals.
+        </p>
+
+        <a href="#training" class="button">Explore Our Training</a>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+
+        <h2 class="section-title">About Goody Toddler Consult</h2>
+
+        <p class="section-intro">
+            Supporting teachers and early-years professionals with practical
+            knowledge, professional development and quality educational
+            practices.
+        </p>
+
+        <div class="about">
+
+            <p>
+                <strong>Goody Toddler Consult</strong> provides professional
+                training and educational support for teachers and individuals
+                working with young children.
+            </p>
+
+            <p>
+                Our programmes focus on developing confident, knowledgeable
+                and responsible educators who understand the importance of
+                children's learning, development, wellbeing and safety.
+            </p>
+
+            <p>
+                We provide training that can help teachers improve their
+                classroom practice and create positive learning environments
+                for young learners.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+
+        <h2 class="section-title">What We Offer</h2>
+
+        <p class="section-intro">
+            Our training and consultancy services cover important areas of
+            early-years education and professional development.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">📚</div>
+                <h3>EYFS Training</h3>
+                <p>
+                    Training and guidance based on the Early Years Foundation
+                    Stage and effective early-years learning practices.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🛡️</div>
+                <h3>Safeguarding</h3>
+                <p>
+                    Professional training on safeguarding children and
+                    creating safe environments for young learners.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">👩‍🏫</div>
+                <h3>Teacher Training</h3>
+                <p>
+                    Practical professional development designed to help
+                    teachers improve their classroom skills.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🧒</div>
+                <h3>Child Development</h3>
+                <p>
+                    Understanding children's development, learning needs
+                    and appropriate educational support.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🏫</div>
+                <h3>School Support</h3>
+                <p>
+                    Educational guidance and support for schools, nurseries
+                    and early-years settings.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🎓</div>
+                <h3>Professional Development</h3>
+                <p>
+                    Continuous learning opportunities for teachers and
+                    childcare professionals.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TEACHER TRAINING -->
+    <section class="training" id="training">
+
+        <h2 class="section-title">Teacher Training Academy</h2>
+
+        <p class="section-intro">
+            Develop your teaching skills and strengthen your understanding
+            of early-years education.
+        </p>
+
+        <div class="training-box">
+
+            <h3>Our Training Areas</h3>
+
+            <ul class="list">
+                <li>Early Years Foundation Stage (EYFS)</li>
+                <li>Child Safeguarding</li>
+                <li>Classroom Management</li>
+                <li>Child Development</li>
+                <li>Lesson Planning</li>
+                <li>Phonics and Early Literacy</li>
+                <li>Early Mathematics</li>
+                <li>Learning Through Play</li>
+                <li>Supporting Children's Wellbeing</li>
+                <li>Professional Teaching Practice</li>
+            </ul>
+
+        </div>
+
+        <div class="training-box">
+
+            <h3>Who Can Attend?</h3>
+
+            <p>
+                Our training can be suitable for teachers, nursery
+                practitioners, teaching assistants, childcare workers,
+                school owners and individuals interested in early-years
+                education.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- WHY US -->
+    <section>
+
+        <h2 class="section-title">Why Choose Goody Toddler Consult?</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">⭐</div>
+                <h3>Professional Training</h3>
+                <p>
+                    Practical training designed around the needs of teachers
+                    and early-years professionals.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">💡</div>
+                <h3>Practical Knowledge</h3>
+                <p>
+                    Learn approaches that can be applied in real classroom
+                    and early-years settings.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🤝</div>
+                <h3>Educational Support</h3>
+                <p>
+                    We support educators as they develop their professional
+                    skills and confidence.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+
+        <h2 class="section-title">Contact Us</h2>
+
+        <div class="contact-box">
+
+            <h2>Goody Toddler Consult</h2>
+
+            <p>
+                Ready to develop your teaching skills?
+                Contact us to learn more about our training programmes.
+            </p>
+
+            <p style="margin-top:20px;">
+                📞 Phone: <a href="tel:+2340000000000">+234 000 000 0000</a>
+            </p>
+
+            <p>
+                📧 Email:
+                <a href="mailto:info@goodytoddlerconsult.com">
+                    info@goodytoddlerconsult.com
+                </a>
+            </p>
+
+            <a class="button" href="https://wa.me/2340000000000">
+                Chat With Us on WhatsApp
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Goody Toddler Consult. All Rights Reserved.
+        </p>
+
+        <p>
+            Early Years Education | Teacher Training | Safeguarding
+        </p>
+
+    </footer>
+
+</body>
+</html>
